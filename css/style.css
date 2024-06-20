@@ -1,0 +1,91 @@
+:root {
+    --pink: #d6006d;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+
+}
+/* header */
+header{
+    margin: auto;
+    padding: 10px 0;
+}
+header img{
+    width: 85px;
+    display: block;
+    margin: auto;
+}
+
+header hr{
+    border-top: 5px solid var(--pink);
+    margin-top: -42px;
+
+}
+
+/* product */
+
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.product div{
+    margin: auto;
+}
+
+h1{
+    color: var(--pink);
+}
+.product div img{
+    width: 75%;
+    margin: auto;
+
+}
+
+
+
+
+/* footer */
+footer div.links {
+    text-align: center;
+    margin: 15px;
+}
+
+footer a {
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer p.disclaimer {
+    width: 70%;
+    margin: 10px auto;
+    letter-spacing: 0;
+    line-height: 1;
+    font-size: 14px;
+}
