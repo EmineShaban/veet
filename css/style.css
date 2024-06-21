@@ -8,7 +8,8 @@ body {
     padding: 0;
 }
 
-img, video {
+img,
+video {
     width: 100%;
 }
 
@@ -17,24 +18,26 @@ img, video {
     margin: auto;
 }
 
-p{
+p {
     font-size: 16px;
     line-height: 1.4;
     margin: 0;
 
 }
+
 /* header */
-header{
+header {
     margin: auto;
     padding: 10px 0;
 }
-header img{
+
+header img {
     width: 85px;
     display: block;
     margin: auto;
 }
 
-header hr{
+header hr {
     border-top: 5px solid var(--pink);
     margin-top: -42px;
 
@@ -42,44 +45,47 @@ header hr{
 
 /* product */
 
-.product{
+.product {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin: 40px auto;
 }
 
-.product div{
+.product div {
     margin: auto;
 }
 
-h1{
+h1 {
     color: var(--pink);
 }
-.product img{
+
+.product img {
     width: 75%;
     margin: auto;
 
 }
 
-.title{
+.title {
     font-size: 30px;
     text-align: center;
     color: var(--pink);
 
 }
-.how-to-use{
+
+.how-to-use {
     margin: 70px auto;
 }
 
-.beauty-line{
+.beauty-line {
     background-color: var(--pink);
     color: white;
     text-align: center;
     text-transform: uppercase;
-
+    margin: 70px auto;
 }
-.beauty-line h2{
+
+.beauty-line h2 {
     font-size: 37px;
     font-weight: 900;
     padding: 20px;
@@ -87,12 +93,23 @@ h1{
 }
 
 
+.about {
+    position: relative;
+}
+
+.about div{
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
 
 
-
-
-
-
+.about div h3{
+    font-size: 27px;
+    
+}
 
 
 
