@@ -114,7 +114,13 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    margin: 40px auto;
+    column-gap: 50px;
  }
+ .bullets img:first-child{
+    border-radius: 25px;
+ }
+
  
 .bullets ul li{
     
@@ -128,9 +134,14 @@ h1 {
     width: 45px;
     margin-right: 10px;
     mix-blend-mode: multiply;
-
+}
+#showlesscomments {
+    display: none;
 }
 
+.text{
+    display: none;
+}
 
 
 
