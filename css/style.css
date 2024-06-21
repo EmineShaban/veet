@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-img {
+img, video {
     width: 100%;
 }
 
@@ -56,11 +56,43 @@ header hr{
 h1{
     color: var(--pink);
 }
-.product div img{
+.product img{
     width: 75%;
     margin: auto;
 
 }
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    color: var(--pink);
+
+}
+.how-to-use{
+    margin: 70px auto;
+}
+
+.beauty-line{
+    background-color: var(--pink);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.beauty-line h2{
+    font-size: 37px;
+    font-weight: 900;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+
+
 
 
 
