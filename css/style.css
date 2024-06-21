@@ -110,6 +110,11 @@ h1 {
     font-size: 27px;
 
 }
+.bullets{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+ }
  
 .bullets ul li{
     
@@ -122,6 +127,8 @@ h1 {
 .bullets ul li img{
     width: 45px;
     margin-right: 10px;
+    mix-blend-mode: multiply;
+
 }
 
 
