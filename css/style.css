@@ -173,6 +173,54 @@ h1 {
 
 
 
+/* faq */
+
+.q {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 7px 0;
+    padding: 15px 20px;
+    background-color: #fdadbd46;
+    margin: 0;
+    color: black;
+    border-radius: 15px;
+     
+}
+
+.a {
+    display: none;
+    margin: 0;
+    padding: 15px;
+    padding-top: 0;
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+
+.faq-content {
+    margin: 20px auto;
+    color: black;
+
+}
+
+.faq-div {
+    /* padding: 25px; */
+    color: #005280;
+}
+
+.faq {
+    /* background-color: #ccdee8; */
+    margin: 0;
+    padding: 25px 0;
+}
+
+
+.title h3 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+
 
 
 
