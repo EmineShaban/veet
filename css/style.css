@@ -104,7 +104,21 @@ h1 {
     left: 30%;
     transform: translate(-50%, -50%);
 }
-
+.cta{
+    display: block; 
+    text-align: center;
+    font-size: 27px;
+    text-transform: uppercase;
+    margin: 25px auto;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    border: 1px solid var(--pink);
+    background-color: var(--pink);
+    padding: 15px 25px;
+    width: 50%;
+    border-radius: 15px;
+}
 
 .about div h3{
     font-size: 27px;
@@ -149,12 +163,15 @@ h1 {
     margin: 50px auto;
 }
 
-.banner h2{
+.banner div{
     width: 45%;
     position: absolute;
     top: 50%;
     left: 70%;
     transform: translate(-50%, -50%);
+
+}
+.banner div h2{
     text-align: center;
     line-height: 1.3;
     text-transform: uppercase;
@@ -164,8 +181,22 @@ h1 {
     color: white;
     margin: 0;
 }
+.banner div a{
+    margin: auto; 
+    background-color: unset;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    border: 2px solid white;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: block;
+    width: 50%;
 
-
+}
 .banner h2 span{
     display: block;
     font-weight: 500;
@@ -267,8 +298,33 @@ h1 {
 
 
 
+/* order */
+
+.order{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.order-from{
+    margin: auto 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+form input,
+select {
+    margin: 5px 0;
+    padding: 5px;
+}
 
 
+.order-from h2{
+    text-align: center;
+    color: var(--pink);
+    font-weight: 900;
+}
 
 
 
