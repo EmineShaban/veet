@@ -135,7 +135,8 @@ h1 {
     margin-right: 10px;
     mix-blend-mode: multiply;
 }
-#showlesscomments {
+#showlesscomments,
+#showlesscomments2{
     display: none;
 }
 
