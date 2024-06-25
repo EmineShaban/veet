@@ -55,8 +55,10 @@
         <h2>Effortless Beauty, Every Day</h2>
     </div>
     <div class="about container">
-        <img src="./images/back.jpg" alt="">
-        <div>
+        <img class="desktop" src="./images/back.jpg" alt="">
+        <img class="mobile" src="./images/back2.jpg" alt="">
+
+        <div >
             <h3>At Veet, we know all about the decisions you have to make when it comes to hair removal.
             </h3>
             <p>You want something easy to use, safe for sensitive skin and approved by dermatologists for legs, body and
@@ -174,6 +176,16 @@
         </div>
 
     </div>
+
+    <div class="ingr container">
+        <!-- <img src="./images/360_F_495176666_QsaOva3gettb6Dgo2B4AMmUzioxpFUaE.jpg" alt=""> -->
+        <p><b>Ingredients:</b>
+            Water, Cetearyl Alcohol, Mineral Oil, Potassium Thioglycolate, Calcium Hydroxide, Ceteareth- 20, Talc,
+            Glycerin, Fragrance, Polyethylene, Sodium Gluconate, Aloe Barbadensis Leaf Juice, Citric Acid, Potassium
+            Sorbate, Sodium Benzoate</p>
+    </div>
+
+
     <div class="faq" id="faq">
         <h3 class="title">FAQ
         </h3>
@@ -227,6 +239,9 @@
             </div>
         </div>
     </div>
+
+ 
+
     <div class="reviews container">
         <h3 class="title">Reviews </h3>
         <div class="review-mark">
@@ -273,7 +288,8 @@
             <div class="review-text">
                 <p class="name"><b>Smooth Results</b></p>
 
-                <p>I tried Veet® Gel Cream Hair Remover for the first time and was amazed by how smooth my skin felt. The hair removal was effective, and the cream was gentle on my skin. Will definitely use it again.
+                <p>I tried Veet® Gel Cream Hair Remover for the first time and was amazed by how smooth my skin felt.
+                    The hair removal was effective, and the cream was gentle on my skin. Will definitely use it again.
 
 
                 </p>
@@ -293,12 +309,14 @@
             </div>
             <div class="review-text">
                 <p class="name"><b>Not for Coarse Hair</b></p>
-                <p>While Veet® Gel Cream Hair Remover works well on fine hair, it didn’t remove my coarser hair completely. It’s great for touch-ups but not for more stubborn hair. Still, it leaves skin feeling soft.
+                <p>While Veet® Gel Cream Hair Remover works well on fine hair, it didn’t remove my coarser hair
+                    completely. It’s great for touch-ups but not for more stubborn hair. Still, it leaves skin feeling
+                    soft.
                 </p>
             </div>
         </div>
 
-<hr>
+        <hr>
 
         <div class="review" style="display: none;">
             <div class="info">
@@ -312,13 +330,14 @@
             </div>
             <div class="review-text">
                 <p class="name"><b>Gentle and Effective</b></p>
-                <p>This product is gentle enough for my sensitive skin yet effective in removing hair. I love the light scent and how easy it is to use. Veet® Gel Cream Hair Remover is now a staple in my routine.
+                <p>This product is gentle enough for my sensitive skin yet effective in removing hair. I love the light
+                    scent and how easy it is to use. Veet® Gel Cream Hair Remover is now a staple in my routine.
 
 
                 </p>
             </div>
         </div>
-<hr class="display-hr" style="display: none;">
+        <hr class="display-hr" style="display: none;">
 
         <div class="review" style="display: none;">
             <div class="info">
@@ -332,7 +351,8 @@
             </div>
             <div class="review-text">
                 <p class="name"><b>Convenient and Fast</b></p>
-                <p>Veet® Gel Cream Hair Remover is incredibly convenient. The pump dispenser makes application a breeze, and the cream works quickly. My skin is left smooth and hair-free every time.
+                <p>Veet® Gel Cream Hair Remover is incredibly convenient. The pump dispenser makes application a breeze,
+                    and the cream works quickly. My skin is left smooth and hair-free every time.
 
 
                 </p>
@@ -351,7 +371,8 @@
             </div>
             <div class="review-text">
                 <p class="name"><b>Great for Sensitive Skin</b></p>
-                <p>As someone with sensitive skin, I found Veet® Gel Cream Hair Remover to be perfect. No irritation or redness, just smooth skin. The pleasant fragrance is a bonus.
+                <p>As someone with sensitive skin, I found Veet® Gel Cream Hair Remover to be perfect. No irritation or
+                    redness, just smooth skin. The pleasant fragrance is a bonus.
 
 
                 </p>
@@ -371,8 +392,9 @@
             </div>
             <div class="review-text">
                 <p class="name"><b>Works Well on Fine Hair</b></p>
-                <p>Veet® Gel Cream Hair Remover works well on fine hair but struggled a bit with thicker areas. Overall, it’s a great product for quick and easy hair removal. My skin feels soft and smooth afterward.
-  
+                <p>Veet® Gel Cream Hair Remover works well on fine hair but struggled a bit with thicker areas. Overall,
+                    it’s a great product for quick and easy hair removal. My skin feels soft and smooth afterward.
+
                 </p>
             </div>
         </div>
@@ -381,12 +403,13 @@
         <a href="##" id="showlesscomments2">Show less</a>
     </div>
 
-    <div class="order container">
+    <div class="order container" id="order">
         <div class="order-img">
             <img src="./images/product.jpg" alt="">
         </div>
         <div class="order-from">
-            <h2>ORDER NOW</h2>
+            <h2>Order your special offer now
+            </h2>
             <form id="order" action="./additional-links/thank-you.php">
                 <input type="text" placeholder="Full name" required>
                 <input type="text" placeholder="Adress" required>
@@ -396,17 +419,18 @@
                     <option value="Cash">Cash on delivery</option>
                 </select>
                 <select name="packs" id="packs">
-                    <option value="one">1 Pack - <b>25 euros </b></option>
-                    <option value="two">2 Pack (20 euros each) - <b>40 euros </b></option>
-                    <option value="three">3 Pack (15 euros each) - <b>45 euros</b></option>
+                    <option value="one">1 Pack - <b>8.99 euros </b></option>
+                    <option value="two">2 Pack (7.99 euros each) - <b>15.98 euros </b></option>
+                    <option value="three">3 Pack (6.99 euros each) - <b>20.97 euros</b></option>
                 </select>
                 <button>Order Now</button>
+
             </form>
 
         </div>
     </div>
 
-    
+
 
     <footer>
         <div class="links">
