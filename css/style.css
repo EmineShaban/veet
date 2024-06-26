@@ -18,16 +18,18 @@ video {
     margin: auto;
 }
 
-p {
+li,p {
     font-size: 16px;
     line-height: 1.4;
     margin: 0;
 
 }
-.mobile{
+
+.mobile {
     display: none;
 
 }
+
 /* header */
 header {
     margin: auto;
@@ -80,6 +82,23 @@ h1 {
     margin: 70px auto;
 }
 
+.how-to-use ul {
+    margin-top: 50px;
+}
+
+.how-to-use ul li {
+    margin: 15px;
+    list-style-type: disc;
+
+}
+.keys ul li b{
+    color: var(--pink);
+    display: block;
+    font-size: 18px;
+}
+.keys ul li{
+    margin: 15px;
+}
 .beauty-line {
     background-color: var(--pink);
     color: white;
@@ -442,6 +461,11 @@ footer p.disclaimer {
     .banner {
         width: 100%;
     }
+
+    .how-to-use-text {
+        width: 80%;
+        margin: auto;
+    }
 }
 
 
@@ -499,7 +523,7 @@ footer p.disclaimer {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-  
+
 }
 
 
@@ -512,34 +536,39 @@ footer p.disclaimer {
     }
 
     .beauty-line h2 {
-        font-size: 30px; 
+        font-size: 30px;
     }
+
     .about div {
         width: 80%;
         margin: auto;
-        position: unset; 
+        position: unset;
         transform: none;
     }
 
     .desktop {
         display: none;
     }
-    .mobile{
+
+    .mobile {
         display: block;
 
     }
+
     .about div h3 {
         margin: 25px auto;
 
     }
+
     .cta {
         margin: 25px auto;
     }
+
     .bullets {
         display: block;
     }
 
-    .order{
+    .order {
         display: block;
     }
 
@@ -547,6 +576,7 @@ footer p.disclaimer {
 
 
 }
+
 @media screen and (max-width: 600px) {
     .banner div h2 {
         font-size: 23px;
@@ -559,17 +589,21 @@ footer p.disclaimer {
     .container {
         width: 90%;
     }
+
     .about,
     .how-to-use,
     .banner {
         width: 100%;
     }
+
     .product {
         display: block;
     }
+
     .banner div h2 {
         font-size: 22px;
     }
+
     .banner div a {
         margin: auto;
         background-color: unset;
@@ -588,45 +622,54 @@ footer p.disclaimer {
         display: block;
         font-size: 20px;
     }
+
     .ingr p {
         font-size: 16px;
         width: 80%;
         margin: auto;
     }
+
     footer div.links {
         display: flex;
-        text-align: center; 
+        text-align: center;
         flex-direction: column;
         margin: 5px;
     }
+
     footer a {
         margin: 5px;
     }
+
     footer p.disclaimer {
         width: 95%;
     }
+
     .banner div {
         width: 60%;
     }
+
     .review {
         display: grid;
         grid-template-columns: 125px 1fr;
     }
-    p {
+
+    p,li {
         font-size: 14px;
-        line-height: 1.4; 
+        line-height: 1.4;
     }
 }
 
 @media screen and (max-width: 411px) {
 
-.cta { 
-    width: 70%;
-}
-.order-from h2 { 
-    font-size: 22px;
-}
-.title {
-    font-size: 28px;
-}
+    .cta {
+        width: 70%;
+    }
+
+    .order-from h2 {
+        font-size: 22px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
 }
